@@ -1,0 +1,7 @@
+SD-WAN
+
+- software-based, often cloud managed
+- multiple internet and private services to create an intelligent and dynamic WAN
+    - this in turn lowers costs and maximizes applciation quality and usability
+
+    

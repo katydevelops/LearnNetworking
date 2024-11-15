@@ -1,0 +1,3 @@
+MPLS - Multiprotocol Label Switching
+
+MPLS is a data transport technique used to speed up and control the flow of network traffic. Unlike traditional IP routing, where data packets are routed based on their destination IP address, MPLS assigns short labels to data packets, allowing routers to make quick and efficient routing decisions based on the lable rather than needed to inpsect the full IP address.
