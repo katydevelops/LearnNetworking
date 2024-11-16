@@ -1,3 +1,16 @@
 MPLS - Multiprotocol Label Switching
 
 MPLS is a data transport technique used to speed up and control the flow of network traffic. Unlike traditional IP routing, where data packets are routed based on their destination IP address, MPLS assigns short labels to data packets, allowing routers to make quick and efficient routing decisions based on the lable rather than needed to inpsect the full IP address.
+
+Multiprotocol: MPLS can work with a variety of network protocols, making it versatile and compatible with diverse networks. 
+
+Label Switching: rather than routing data purely based on the destination IPs, MPLS routers forward data based on these labels, making the process faster and more efficient.
+
+Why do companies use MPLS?
+    - Speed: MPLS uses labels for routing, which can significantly speed up packet forwarding, especially over complex networks.
+
+    - Reliability: MPLS can reroute traffic quickly in the case of a network failure, leading to great uptime.
+
+    - Quality of Service (QoS): MPLS networks can prioritize certain types of traffic (e.g. VoIP or video conferencing) to maintain quality and reduce latency 
+
+    - Taffic Engineering: MPLS allows network admins to manage and optimize paths that data packets follow, helping prevent congestion and improve overall performance1q

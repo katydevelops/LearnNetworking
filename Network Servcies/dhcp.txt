@@ -1,0 +1,20 @@
+Dynamic Host Configuration Protocol (DHCP) 
+
+a protocol used to assign IP addresses and other configuration settings (like subnet masks, default gateways and DNS servers) to devices dynamically without manual intervention.
+
+DHCP prevents needing to manually assign iP addresses to every single device - this would be extremely time-consuming to manage and very error prone. DHCP automates this process by ensuring every device gets a unique IP address and other network settings seamlessly.
+
+DHCP server lifecycle:
+    1. Discovery
+        A client/device joins the network and broadcasts a HDCP Discover message to find an available to find an available DHCP server
+
+        The message is sent as a broadcast because the client doesn't yet have an IP address. 
+
+    2. Offer
+        The DHCP server responds with a DHCP Offer, proposing an IP address and additional configuration details (subnet mask, gateway, DNS)
+
+    3. Request
+        The client responds with a DHCP Request, indicating it accepts the Offer
+    
+    4. Acknowledgment
+        The server sends a DHCP Acknowledgment, finalizing the lease. The client now has an assigned IP address for a specified lease duration.
