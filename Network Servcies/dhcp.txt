@@ -18,3 +18,4 @@ DHCP server lifecycle:
     
     4. Acknowledgment
         The server sends a DHCP Acknowledgment, finalizing the lease. The client now has an assigned IP address for a specified lease duration.
+            A "lease" is the time period for which and IP address is assigned to a device - when the lease expires - the device must request a renewal (if it's still active) or if the device is no longer on the network, the IP address returns to the pool for reuse
