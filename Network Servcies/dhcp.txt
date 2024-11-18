@@ -4,6 +4,9 @@ a protocol used to assign IP addresses and other configuration settings (like su
 
 DHCP prevents needing to manually assign iP addresses to every single device - this would be extremely time-consuming to manage and very error prone. DHCP automates this process by ensuring every device gets a unique IP address and other network settings seamlessly.
 
+DHCP enables Dynamic IP recycling - ISPs (Internet Service Providers) assign dynamic public IPs to devices temporarily using DHCP. When the lease expires (e.g., after a few hours or months), that IP is returned to the pool and reused for another device.
+This ensures that IPs aren’t "wasted" on devices not currently active on the network.
+
 DHCP server lifecycle:
     1. Discovery
         A client/device joins the network and broadcasts a HDCP Discover message to find an available to find an available DHCP server
@@ -32,4 +35,3 @@ DHCP server lifecycle:
 
         4. Scalability
             - works seamlessly for small office networks or large enterprise environments
-            
