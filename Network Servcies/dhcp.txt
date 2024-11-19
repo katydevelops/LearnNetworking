@@ -7,6 +7,16 @@ DHCP prevents needing to manually assign iP addresses to every single device - t
 DHCP enables Dynamic IP recycling - ISPs (Internet Service Providers) assign dynamic public IPs to devices temporarily using DHCP. When the lease expires (e.g., after a few hours or months), that IP is returned to the pool and reused for another device.
 This ensures that IPs aren’t "wasted" on devices not currently active on the network.
 
+Why Dynamic IP Recycling is Practical
+Dynamic IP assignment solves two problems:
+
+Efficient Resource Use:
+    Not all devices need to be online 24/7. When they disconnect 
+    (e.g., you turn off your phone’s Wi-Fi), the IP can be reassigned.
+
+Privacy:
+    Recycling IPs makes tracking individual users across the internet more difficult, which can improve privacy.
+
 DHCP server lifecycle:
     1. Discovery
         A client/device joins the network and broadcasts a HDCP Discover message to find an available to find an available DHCP server
