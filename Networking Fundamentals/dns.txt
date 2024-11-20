@@ -1,0 +1,8 @@
+DNS
+
+Domain Name System - the internet's phone book :) translates the domain name into IP addresses
+
+Why is DNS important?
+    - stores IP address needed for for web traffic
+    - allowing employees to access internal resources like an intranet
+    - supporting application functionality (i.e. database, web servers)
