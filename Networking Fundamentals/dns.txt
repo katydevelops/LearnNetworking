@@ -6,3 +6,27 @@ Why is DNS important?
     - stores IP address needed for for web traffic
     - allowing employees to access internal resources like an intranet
     - supporting application functionality (i.e. database, web servers)
+
+How DNS works:
+    1. DNS Query is sent
+        - computer asks the DNS Resolver (usually your ISP or configured DNS server) for the IP address of the domain name
+    
+    2. Cache Lookup
+        - first the resolver checks its cache to see if it already knows the answer, if not, it continues the process
+    
+    3. Root Server Lookup
+        - the resolver queries one of the Root DNS Servers, which directs the query to the appropriate Top-Level Domain (TLD) DNS Server
+    
+    4. TLD Server Lookup
+        - the TLD server points the resolver to the Authoritative DNS Server for the domain.
+
+    5. Authoritative Server Lookup
+        - the authoritative server provides the final answer - the IP address of the domain
+
+    6. Response is Sent Back
+        - the resolver returns the IP address to your computer, which can now connect to the destination server
+
+DNS Resolver: The first stop for DNS queries (usually provided by your ISP or Google’s DNS at 8.8.8.8).
+Root DNS Servers: The top-level directory for the internet, redirecting queries to TLD servers.
+TLD DNS Servers: Handle domains like .com, .org, .net, or country-specific TLDs like .uk.
+Authoritative DNS Server: Stores the actual records for a domain (e.g., example.com).
