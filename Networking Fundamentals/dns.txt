@@ -30,3 +30,15 @@ DNS Resolver: The first stop for DNS queries (usually provided by your ISP or Go
 Root DNS Servers: The top-level directory for the internet, redirecting queries to TLD servers.
 TLD DNS Servers: Handle domains like .com, .org, .net, or country-specific TLDs like .uk.
 Authoritative DNS Server: Stores the actual records for a domain (e.g., example.com).
+
+Active Directory Integration:
+In Windows enterprise environments, DNS is tightly integrated with Active Directory (AD). AD uses DNS for locating domain controllers, authenticating users, and enabling seamless logins.
+Split-Brain DNS:
+
+Enterprises may run internal and external DNS zones for the same domain.
+Example:
+intranet.company.com resolves internally for employees.
+www.company.com resolves externally for public users.
+High Availability:
+
+Companies use redundant DNS servers to ensure queries are always resolved, even if one server goes down.
